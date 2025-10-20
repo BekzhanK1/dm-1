@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load the dataset
-df = pd.read_csv('/home/bekzhan/Code/spotify-dm/spotify_churn_dataset.csv')
+df = pd.read_csv('./spotify_churn_dataset.csv')
 
 print("Dataset shape:", df.shape)
 print("\nFirst few rows:")
