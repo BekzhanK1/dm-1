@@ -1,0 +1,42 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting sharp
+  Using cached sharp-1.0.2.tar.gz (107 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: sharp
+  Building wheel for sharp (pyproject.toml): started
+  Building wheel for sharp (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Building wheel for sharp (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [16 lines of output]
+      C:\Users\Miras\AppData\Local\Temp\pip-build-env-cpf5e3q6\overlay\Lib\site-packages\setuptools\_distutils\extension.py:150: UserWarning: Unknown Extension options: 'include_dir'
+        warnings.warn(msg)
+      C:\Users\Miras\AppData\Local\Temp\pip-build-env-cpf5e3q6\overlay\Lib\site-packages\setuptools\dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+      
+              ********************************************************************************
+              Please consider removing the following classifiers in favor of a SPDX license expression:
+      
+              License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+      
+              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+              ********************************************************************************
+      
+      !!
+        self._finalize_license_expression()
+      error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for sharp
+Failed to build sharp
+
+[notice] A new release of pip is available: 24.3.1 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+ERROR: ERROR: Failed to build installable wheels for some pyproject.toml based projects (sharp)
